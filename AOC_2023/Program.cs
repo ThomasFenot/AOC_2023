@@ -12,6 +12,8 @@ namespace AOC_2023
             Day1.Day1 day1 = new Day1.Day1();
             day1.ChapterOne();
             Console.WriteLine("---------- Day 1 - Chapter 2 ----------");
+            day1.ChapterTwo();
+
 
         }
     }
