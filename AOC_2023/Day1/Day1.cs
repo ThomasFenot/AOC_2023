@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using System.Reflection;
 using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
-
 
 namespace AOC_2023.Day1
 {
     public class Day1
     {
-        string[] puzzleInputs = File.ReadAllLines(@"Day1\\input.txt");
-        string[] testPuzzleInputs = File.ReadAllLines(@"Day1\\testInput.txt");
+        string[] puzzleInputs = File.ReadAllLines($"{MethodBase.GetCurrentMethod().DeclaringType.Name}\\input.txt");
+        string[] testPuzzleInputs = File.ReadAllLines($"{MethodBase.GetCurrentMethod().DeclaringType.Name}\\testInput.txt");
 
-
-        public void ChapterOne() {
+        public void ChapterOne()
+        {
             int result = 0;
 
             foreach (string currInput in puzzleInputs)
@@ -53,6 +46,6 @@ namespace AOC_2023.Day1
             "nine" => "9",
             _ => value,
         };
-        
+
     }
 }
