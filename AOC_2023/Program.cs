@@ -23,6 +23,15 @@ namespace AOC_2023
             Console.WriteLine("---------- Day 2 - Chapter 2 ----------");
             day2.ChapterTwo();
             #endregion
+            #region Day3
+            Day3.Day3 day3 = new Day3.Day3();
+
+            Console.WriteLine("---------- Day 3 - Chapter 1 ----------");
+            day3.ChapterOne();
+            Console.WriteLine("---------- Day 3 - Chapter 2 ----------");
+            //day3.ChapterTwo();
+            #endregion
+
         }
     }
 }
